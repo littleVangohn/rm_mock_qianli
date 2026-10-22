@@ -155,9 +155,15 @@ public class FPVController : MonoBehaviour
         bool pointerFree = Pacific.Mujoco.MujocoModeRulesPanel.AnyOpen ||
                            (cachedOfficialInput != null && cachedOfficialInput.UiNeedsCursor) ||
                            RoleSelectionMenu.OpenMenus > 0 || ClassSelectionMenu.OpenMenus > 0;
-        UiPointerRequested = pointerFree || ReviveWindow.activeSelf || SettingMenu.activeSelf ||
-                             Ammo0PurchaseMenu.activeSelf || Ammo1PurchaseMenu.activeSelf ||
-                             LevelChoiceMenu.activeSelf;
+        // The official HUD hides PlayerUI and owns P/the pointer. Its legacy
+        // panels keep their own activeSelf flag when hidden with the parent, so
+        // they must only claim the cursor while that hierarchy is actually
+        // visible; otherwise closing the official P panel leaves the cursor on.
+        bool legacyUiVisible = PlayerUI != null && PlayerUI.activeInHierarchy;
+        UiPointerRequested = pointerFree ||
+            (legacyUiVisible && (ReviveWindow.activeSelf || SettingMenu.activeSelf ||
+                                 Ammo0PurchaseMenu.activeSelf || Ammo1PurchaseMenu.activeSelf ||
+                                 LevelChoiceMenu.activeSelf));
         if (UiPointerRequested)
         {
             UnityEngine.Cursor.lockState = CursorLockMode.None;
@@ -463,6 +469,10 @@ public class FPVController : MonoBehaviour
 
     void ToggleSettingMenu()
     {
+        // P is owned by the official HUD once the legacy PlayerUI is hidden.
+        // Toggling the settings menu underneath it would leave a phantom open
+        // state that keeps UiPointerRequested true after the panel closes.
+        if (PlayerUI == null || !PlayerUI.activeInHierarchy) return;
         SettingMenu.SetActive(!SettingMenu.activeSelf);
 
         Shooter1Performance.SetActive(referee.ShooterControllerList.ContainsKey(0));

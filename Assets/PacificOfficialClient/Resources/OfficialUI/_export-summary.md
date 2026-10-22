@@ -1,0 +1,175 @@
+# 运行时布局导出
+
+- 根节点 169，总节点 3223
+- 使用素材 510 张
+- layout.json 0.45 MB
+
+- [off] OverHeatMask                       节点     5
+- [off] HittedMask                         节点     5
+- [off] OverPowerMask                      节点     5
+- [off] OverSpeedMask                      节点     5
+- [off] SundryItem                         节点    41
+- [off] SettingPanel                       节点   337
+- [on ] TopRoundItem                       节点    10
+- [off] BlueOutpostItem                    节点    17
+- [off] BlueGuardItem                      节点    16
+- [off] RedOutpostItem                     节点    17
+- [on ] RedWinPointItem                    节点    14
+- [on ] RedBaseItem                        节点    25
+- [off] RedTeamName                        节点     6
+- [off] BlueTeamName                       节点     6
+- [on ] BlueBaseItem                       节点    28
+- [on ] BlueWinPointItem                   节点    14
+- [off] SetModulePanel                     节点   105
+- [off] RedGuardItem                       节点    18
+- [off] BlueBlood_10                       节点    11
+- [off] TabItemRMUC                        节点    38
+- [off] TabItem                            节点    38
+- [off] RedBlood_2                         节点     3
+- [on ] TeammateBuffItem_fly               节点     3
+- [on ] StatusbarItem                      节点    40
+- [off] RedBlood_7                         节点     8
+- [on ] BuffItem_HP                        节点     4
+- [off] IROStatusPrefab                    节点     3
+- [off] Waring1Mask                        节点     7
+- [off] BlueBlood_3                        节点     4
+- [off] BlueBlood_2                        节点     3
+- [on ] YellowTopImage                     节点     1
+- [on ] MiniMapMarker                      节点     4
+- [on ] LocationItem                       节点     4
+- [off] MapPanelFullScreen                 节点    65
+- [on ] MapItem                            节点    66
+- [off] MapPanel                           节点   270
+- [off] RobotDeathItem                     节点     6
+- [off] BlueBlood_15                       节点    16
+- [off] GamePrepItem                       节点     6
+- [off] RedAirplaneItem                    节点    12
+- [off] PopupMessage                       节点     1
+- [on ] TeammateBuffItem_Cool              节点     3
+- [on ] CoinItem                           节点     7
+- [off] CoinItemRMUC                       节点     7
+- [off] RevivingMask                       节点    20
+- [on ] BuffItem_Cool                      节点     4
+- [off] RongyuTip                          节点     5
+- [off] KickOffByServer                    节点     3
+- [on ] MessageCenter                      节点     3
+- [off] RedBlood_6                         节点     7
+- [on ] ModuleItem                         节点     3
+- [off] LowBloodMask                       节点     1
+- [off] TabRobotRMUC                       节点    14
+- [off] BlueTabRobot                       节点    14
+- [off] RedTeammate                        节点    27
+- [on ] ControlLink                        节点     1
+- [off] SignallampItemEngineer             节点    43
+- [on ] SignallampItem                     节点    37
+- [off] BuffItem                           节点     5
+- [off] shieldvalue                        节点     1
+- [off] RedBlood_15                        节点    16
+- [off] AssembleTip                        节点     4
+- [off] ServerKillMask                     节点     4
+- [off] RedBlood_3                         节点     4
+- [off] BuffItem_Golf                      节点     4
+- [off] HelpItem                           节点    15
+- [off] GMCodeItem                         节点     6
+- [off] BlueBlood_6                        节点     7
+- [off] TeammateBuffItem_HP                节点     3
+- [off] SmallRuneItem                      节点     1
+- [off] DartState                          节点     3
+- [off] XingNengTip                        节点     3
+- [off] ReleaseMiner                       节点    15
+- [off] Waring2Mask                        节点     8
+- [off] QuitPanel                          节点     7
+- [off] ExceptionTip                       节点     3
+- [off] AnimationBlueWin                   节点     6
+- [off] AnimationTermination               节点     6
+- [off] AnimationRedWin                    节点     6
+- [off] AnimationDraw                      节点     6
+- [off] BuffItem_Bullet                    节点     3
+- [off] BlueDownImage                      节点     1
+- [off] MissileTip                         节点     7
+- [off] RuneTab                            节点    46
+- [off] BigRuneItem                        节点     9
+- [off] BlueTopImage                       节点     1
+- [off] DeathMask                          节点     4
+- [off] DiskTip                            节点     4
+- [off] ShooterTip                         节点     5
+- [on ] BattleMessage                      节点     9
+- [off] SoftNeedUpdate                     节点     8
+- [off] Check                              节点    10
+- [off] RedTabRobot                        节点    14
+- [off] BuffItem_Shield                    节点     4
+- [off] TeammateBuffItem_Shiel50           节点     3
+- [off] ValidateItem                       节点    71
+- [off] FreezeItem                         节点     3
+- [on ] CrosshairItem                      节点    35
+- [off] RedBlood_10                        节点    11
+- [on ] GainPoint                          节点    24
+- [off] IslandInfoItem                     节点    32
+- [off] BlueTeammate                       节点    27
+- [off] MaskItem                           节点     2
+- [off] Fortress                           节点    13
+- [off] RedValidateRobot                   节点     7
+- [off] ControlZone                        节点    15
+- [off] DisplaySetting                     节点    12
+- [on ] NetworkTip                         节点    29
+- [off] KickOffByJudge                     节点     3
+- [off] BuffItem_Rune                      节点     4
+- [off] AirplaneStatusbarItem              节点    64
+- [off] GuardWarning                       节点     9
+- [off] GuardRfidTip                       节点     3
+- [off] BlueValidateRobot                  节点     7
+- [off] BothYellowWarningMask              节点     9
+- [off] Waring3Mask                        节点     8
+- [off] YellowWarningMask                  节点    10
+- [off] Mask                               节点     2
+- [off] MissileHitMask                     节点     8
+- [off] MissileBlockMask                   节点     2
+- [off] ValidateAnimation                  节点     2
+- [off] difficultyselectionitem            节点    10
+- [off] TechCoreSelectItem                 节点    10
+- [off] RecordTip                          节点     5
+- [off] AvailableBulletItem                节点     1
+- [off] ExchangeItem                       节点    34
+- [off] ExchangeItem2024                   节点    75
+- [off] ExchangeItem2025                   节点    89
+- [off] ExchangeItem2023                   节点    56
+- [off] TechCore2026                       节点   190
+- [off] RobotKillItem                      节点    10
+- [off] MapRobot                           节点     6
+- [off] MapEnemyRobot                      节点     7
+- [off] BlueBlood_4                        节点     5
+- [off] SingleBullet                       节点     1
+- [off] SkillUpItem                        节点    31
+- [off] RedBlood_4                         节点     5
+- [off] TeammateBuffItem_smallRune         节点     3
+- [off] MiddleMessage                      节点     3
+- [off] SiloItem                           节点    43
+- [off] Deployment                         节点     9
+- [off] BlueBlood_7                        节点     8
+- [off] HeroSupplyItem2021                 节点    32
+- [off] HeroSupplyItem2024                 节点    40
+- [off] HeroSupplyItem2024Student          节点    40
+- [off] SupplyItem2024Student              节点    40
+- [off] SupplyItem2024                     节点    40
+- [off] StandSupplyItem2021                节点    71
+- [off] SupplyItem                         节点    32
+- [off] InputRecord                        节点    37
+- [off] RuneProgress                       节点     1
+- [off] RMUTCResultPrefab                  节点     9
+- [off] RemotExchangeTip                   节点    11
+- [on ] TeammateItem                       节点     3
+- [off] BlueAirplaneItem                   节点    12
+- [off] YellowDownImage                    节点     1
+- [off] ModuleOfflineMask                  节点     5
+- [off] BuffItem_fly                       节点     4
+- [off] RedBlood_5                         节点     6
+- [off] RemoteExchange                     节点    46
+- [off] TeammateBuffItem_Shiel100          节点     3
+- [off] BlueBlood_5                        节点     6
+- [off] TeammateBuffItem_bigRune           节点     3
+- [off] CriticalHit                        节点     5
+- [off] GuardStance                        节点     9
+- [off] GMPanel                            节点     4
+- [off] Video                              节点     1
+- [off] TC                                 节点     1
+- [off] TC                                 节点     1
